@@ -1,0 +1,17 @@
+{
+   "background": {
+      "scripts": [ "background.js", "test.js" ]
+   },
+   "background_page": "background.html",
+   "description": "A Chrome extension for viewing online videos from overseas (For Zoe).",
+   "icons": {
+      "128": "iqiyi-128.png",
+      "16": "iqiyi-16.png",
+      "48": "iqiyi-48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDZD+KoCrW39CUaL1Wp/0F7lcRMifQABMxTKpPdtkdgsNI67C1Lf08gKhXJaaIKXNJM4eVZsyVWzGzsE2EfLFgFjcFOdgsh4FgB+CYbBiRCuH88riL44tcKfNSY/YlmsM4akEEVsTXQDeBqkVYVvEeOGzn5YZEWUhmtHV7rsj+YXQIDAQAB",
+   "manifest_version": 2,
+   "name": "Oversea iQiyi",
+   "permissions": [ "webRequest", "webRequestBlocking", "\u003Call_urls\u003E" ],
+   "version": "2.8"
+}
