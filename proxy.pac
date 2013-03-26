@@ -6,6 +6,8 @@ function FindProxyForURL(url, host) {
             shExpMatch(url, "http://baidu.iqiyi.com/*") ||
             shExpMatch(url, "http://baidu.ku6.com/*") ||
             shExpMatch(url, "http://pan.baidu.com/*") ||
+            shExpMatch(url, "http://tingapi.ting.baidu.com/*") ||
+            shExpMatch(url, "http://zhangmenshiting.baidu.com/*") ||
 
 
             shExpMatch(url, "http://v2.tudou.com/*") ||
